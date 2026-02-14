@@ -162,3 +162,4 @@ cy.contains('Email Address already exist').should ("be.visible")
 //18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
 //19. 
 //20.
+//21
