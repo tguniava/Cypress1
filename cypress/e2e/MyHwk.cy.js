@@ -59,7 +59,7 @@ beforeEach (() => {
     cy.contains ("Delete Account").click()
     cy.contains ("ACCOUNT DELETED").should ("be.visible")
   })
-
+   
   it('Test Case 3: Login with incorrect email and password', ()=>{
   cy.contains ('Signup / Login').click ()
   cy.contains ('Login to your account').should("be.visible")
@@ -160,4 +160,4 @@ cy.contains('Email Address already exist').should ("be.visible")
 //16. Verify that 'Logged in as username' is visible
 //17. Click 'Delete Account' button
 //18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
-
+//19. 
